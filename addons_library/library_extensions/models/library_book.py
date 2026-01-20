@@ -8,3 +8,8 @@ class LibraryBook(models.Model):
         string = "Author",
         required = True,
     )
+
+    category_id = fields.Many2many(
+        "library.book.category",
+        string = "Categories"
+    )
