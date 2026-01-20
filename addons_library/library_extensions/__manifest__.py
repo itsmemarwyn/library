@@ -1,6 +1,6 @@
 {
     "name": "Library Extensions",
-    "version": "3.0",
+    "version": "4.0",
     "depends": ["library"],
     "category": "Extra Tools",
     "summary": "Extension for Library Module",
@@ -9,6 +9,7 @@
     "data": [
         "security/ir.model.access.csv",
         "views/library_book_category_views.xml",
+        "views/library_book_views.xml",
     ],
     "installable": True,
     "application": False,
