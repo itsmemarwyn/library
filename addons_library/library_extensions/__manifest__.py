@@ -1,6 +1,6 @@
 {
     "name": "Library Extensions",
-    "version": "1.0",
+    "version": "2.0",
     "depends": ["library"],
     "category": "Extra Tools",
     "summary": "Extension for Library Module",
